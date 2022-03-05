@@ -1,0 +1,40 @@
+Mini "dokumentacja" Projektu nr 2 na GK
+Autor: Łukasz Komoszyński 305932
+
+========= Klawiszologia =========
+
+Program podzielony został na 3 sekcje:
+	- Variables - Najważniejsze zmienne równania oświetlenia i animacja
+	- Fill - zmienne modyfikujące rodzaj i sposób wypełnienia
+	- Triangulation - stopień triangulacji i pokazywanie siatki trójkątów
+
+Szczegółowy opis sekcji:
+	1. Variables
+		Light Color - wybór koloru światła (domyślnie biały)
+
+		kd/ks/k factor - suwaki do odpowiednich zmiennych; połączone z numericUpDown 
+
+		Change Normal Map - wybór mapy normalnej z pliku - można je znaleźć w folderze
+								   resources		
+
+		
+		z plane - współrzędna "z" światła
+		
+		Start - rozpoczyna animację
+		
+		Stop - zatrzymuje animację; pojawia się gdy animacja jest włączona
+	
+		Reset - resetuje animacje do pozycji startowej
+
+	2. Fill
+		Solid Color - stały kolor wypełnienia
+		Texture - kolor wypełnienia z tekstury
+		
+		Exact - oświetlenie wyliczane dla każdego piksela
+		Interpolate - oświetlenie interpolowane z wierzchołków trójkąta
+
+	3. Triangulation
+		Degree - suwak dokładności interpolacji
+
+		Show Mesh - checkbox pokazujący siatkę trójkątów; przesuwać trójkąty można tylko gdy siatka
+		 	    jest widoczna
